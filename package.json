@@ -2,7 +2,10 @@
     "name": "warpack-types",
     "version": "0.0.1",
     "description": "TypeScript declaration files for Warpack.",
-    "repository": "https://github.com/rhazarian/warpack-types",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rhazarian/warpack-types.git"
+    },
     "files": [
         "**/*.d.ts"
     ],
