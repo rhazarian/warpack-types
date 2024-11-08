@@ -27,7 +27,7 @@ declare namespace warpack {
      * errors will be handled by `safeCall`.
      * @runtime
      */
-    function wrapSafeCall<C extends (...args: any[]) => any>(f: C): C
+    function wrapSafeCall<C extends (this: void, ...args: any[]) => any>(f: C): C
 
     function wrapThread<Args extends any[], R>(f: (...args: Args) => R): (...args: Args) => void
 
