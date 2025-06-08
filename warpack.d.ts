@@ -661,6 +661,7 @@ declare interface WarMapObjects {
     buff: WarObjects
     upgrade: WarObjects
     lightning: WarObjects
+    sound: WarObjects
 }
 
 type Locale = "ruRU" | "frFR"
